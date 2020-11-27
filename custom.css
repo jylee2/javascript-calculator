@@ -1,0 +1,39 @@
+.customClassMain {
+    width: 100%;                
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;            
+}
+.calcBody {
+    background-color: black;
+    color: white;
+}
+.calcDisplay {
+    border-style: none;
+    text-align: right;
+    padding: 2% 2% 2% 2%;     
+}
+.calc-text {
+    color: silver;
+}
+.num-pad {
+    font-size: 24pt;
+    margin: 0 0 0 0;
+    width: 100px;
+    height: 100px;
+}
+#clear, #equals, #zero {
+    font-size: 20pt;
+    width: 200px;
+    border-radius: 0;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #decimal {
+    font-size: 20pt;
+    border-radius: 0;
+}
+#divide, #multiply, #subtract, #add {
+    font-size: 20pt;
+    border-radius: 0;
+}
