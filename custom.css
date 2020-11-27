@@ -9,6 +9,7 @@
 .calcBody {
     background-color: black;
     color: white;
+    width: 400px;
 }
 .calcDisplay {
     border-style: none;
